@@ -1,0 +1,1 @@
+define(["phaser","app/states/boot","app/states/preloader","app/states/menu","app/states/game"],function(e,t,n,r,i){"use strict";function s(){}return s.prototype={start:function(){var s=new e.Game(640,480,e.AUTO,"sketchystarship");s.state.add("boot",t),s.state.add("preloader",n),s.state.add("menu",r),s.state.add("game",i),s.state.start("boot")}},s});
